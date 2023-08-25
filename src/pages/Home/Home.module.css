@@ -1,0 +1,45 @@
+/* css da page Home */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--white);
+}
+
+.apresentacao img {
+    height: 500px;
+}
+
+.apresentacao p {
+    font-size: 3rem; /* 48px */
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.apresentacao span {
+    color: var(--contrast);
+}
+
+.btn {
+    width: 250px;
+    height: 70px;
+    font-size: 1.125rem;
+    font-weight: bolder;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn_red {
+    background-color: var(--contrast);
+    color: var(--white);
+}
+
+.btn_red:hover {
+    background-color: var(--primary);
+}

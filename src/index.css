@@ -1,0 +1,31 @@
+:root {
+  font-family: 'Lora', monospace;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --hf: #452f946e;
+  --primary: #a7a1fc;
+  --secondary: #0F3460;
+  --terceary: #231b99;
+  --contrast: #362dac;
+  --soft-white: #f1f1f1;
+  --white: #fefefe;
+  --black: #111;
+  --gray: #222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  background: rgb(167,81,235);
+  background: linear-gradient(22deg, rgba(167,81,235,1) 0%, rgba(255,219,224,1) 100%);
+  width: 100%;
+  overflow-x: hidden;
+}
